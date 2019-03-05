@@ -1,0 +1,32 @@
+.controls {
+    width: 708px;
+    margin: 0 auto;
+}
+
+.controls__flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.size-control-text {
+    text-align: center;
+    margin: 0;
+}
+
+.controls__button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #CACFBB;
+}
+
+.controls__button:hover {
+    background-color: #747868;
+}
+
+.controls__button:active {
+    background-color: #59682B;
+}

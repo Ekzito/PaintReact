@@ -1,0 +1,28 @@
+.color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 708px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.color-palette__color {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+}
+
+.color-palette__color:hover {
+    outline: 3px solid #ffffff;
+}
+
+.selected {
+    outline: 3px solid #ffffff;
+}
