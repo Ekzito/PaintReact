@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 
 import ColorPalette from './components/ColorPalette';
 import Controls from './components/Controls';
