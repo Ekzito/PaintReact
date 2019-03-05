@@ -41,7 +41,7 @@ class App extends Component {
   }
 
   lineSizeChange(size) {
-    const lineWidth = size;
+    const lineWidth = Number(size);
     this.setState({lineWidth});
   }
 
