@@ -11,7 +11,7 @@ class Controls extends React.Component {
     
     handleClickAddColor = () => {
         const pickerOpen = !this.state.pickerOpen;
-        this.setState({pickerOpen})
+        this.setState({pickerOpen});
     };
 
     handleClickClosePicker = () => {
@@ -24,8 +24,8 @@ class Controls extends React.Component {
 
     handleSizeChange = (event) => {
         const size = event.target.value;
-        this.setState({sizeLineValue: size})
-        this.props.lineSizeChange(size)
+        this.setState({sizeLineValue: size});
+        this.props.lineSizeChange(size);
     };
 
     render() {
